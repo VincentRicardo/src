@@ -21,6 +21,12 @@ def berdiri():
     sleep(1)
 
 def jalan():
+    kit.servo[3].angle = 55
+    sleep(1)
+    kit.servo[4].angle = 70
+    sleep(1)
+    kit.servo[5].angle = 0
+    sleep(1)
     kit.servo[5].angle = 90
     sleep(1)
     kit.servo[4].angle = 110
